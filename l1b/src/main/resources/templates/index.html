@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Insert title here</title>
+<link th:href="@(/webjars/bootstrap/css/bootstrap.min.css)" rel="stylesheet"/>
+<link th:href="@(/webjars/bootstrap/css/bootstrap-theme.min.css)" rel="stylesheet"/>
+</head>
+<body>
+	<div class="row align-items-center">  
+		<div class="col-1 col-sm-3"></div>
+		<div class="col">
+			<form>
+				<div class="mb-3">
+				  <label for="formGroupExampleInput" class="form-label">Nome</label>
+				  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nome">
+				</div>
+				<div class="mb-3">
+				  <label for="formGroupExampleInput2" class="form-label">Genero</label>
+				  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Genero">
+				</div>
+				<div class="mb-3">
+				  <label for="formGroupExampleInput" class="form-label">Data de Nascimento</label>
+				  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Data de Nascimento">
+				</div>
+				<div class="mb-3">
+				  <label for="formGroupExampleInput2" class="form-label">Telefone</label>
+				  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Telefone">
+				</div>
+			</form>      
+		</div>
+		<div class="col-1 col-sm-3"></div>
+	</div>
+  </div>	
+	
+	<script th:src="@(/webjars/jquery/jquery.min.js)"></script>
+	<script th:src="@(/webjars/bootstrap/js/bootstrap.min.js)"></script>
+</body>
+</html>
