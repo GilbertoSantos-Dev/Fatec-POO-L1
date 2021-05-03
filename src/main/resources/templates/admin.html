@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta charset="UTF-8">
+<title>World Beauty - Admin</title>
+
+<!--/*/ <th:block th:include="fragments.html :: common-head"></th:block> /*/-->
+<link th:href="@{/css/form.css}" rel="stylesheet" />
+</head>
+
+<body>
+	<div th:insert="fragments.html :: menu"></div>
+	<div th:insert="fragments.html :: admin-menu"></div>
+	<h2>Painel Administrativo</h2>
+	
+	<div th:insert="fragments.html :: footer"></div>
+</body>
+</html>
